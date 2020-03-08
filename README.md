@@ -25,3 +25,10 @@ Node.js is a an open-source and cross-platform JavaScript runtime built on [Chro
 [8. Node Packages Manager](https://github.com/xeusteerapat/nodejs-refresher/tree/master/08_NPM)
 
 [9. Express](https://github.com/xeusteerapat/nodejs-refresher/tree/master/09_Express)
+
+## References
+
+[node.js official website](https://nodejs.org/en/)  
+[nodejs.dev](https://nodejs.dev/)  
+[The Complete Node.js Developer Course (3rd Edition)](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/)  
+[Learn and Understand NodeJS](https://www.udemy.com/course/understand-nodejs/)
