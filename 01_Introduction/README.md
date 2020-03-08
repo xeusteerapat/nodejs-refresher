@@ -40,3 +40,18 @@ Node.js have somthing kind of similar to `document` called `process`. `process` 
 ![process](process.png)
 
 i.e. `process.exit()` is to exit node REPL.
+
+## Runing Node.js script
+
+You can run a Node.js script by using `node` command in your terminal follow by file name. If I have `app.js` like this:
+
+```javascript
+console.log('Hello, Node!');
+```
+
+I just simply run
+
+```bash
+node app.js
+Hello, Node!
+```
