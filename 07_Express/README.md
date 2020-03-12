@@ -52,3 +52,12 @@ and you should see
 ![express hello world](express.png)
 
 Compare to last time we've created server with [http](https://github.com/xeusteerapat/nodejs-refresher/tree/master/05_HTTP_Servers#create-nodejs-server) core module of Node.js, it's lots easier. Let's break down the process and learn what is going on behind the scenes.
+
+1. Import express libraries and create Express application named `app`
+2. Create PORT number variable. (Actually, you don't need to do this, you can just pass the port number to the listen `method` directly.)
+3. Use `get` method which receives 2 arguments, first is path `'/'` and second is callback function.
+4. Callback function takes 2 arguments `req` and `res` which are short for:
+   - request: it's an object that represents the incoming request from the browser into our web server.
+   - response: it's represents the outgoing response from our web server back over to the browser.
+5. Whenever someone makes a request to the root `'/'` we will run the callback function and send the response with `Hello World!`
+6. `app.listen` will listen for incoming requests on particular port on our machine which is PORT no `3000` with a message `Example app listening on port 3000!` after we run the app.
